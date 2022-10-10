@@ -1,0 +1,29 @@
+.single {
+  max-width: 1200px;
+  margin: 40px auto;
+  text-align: center;
+  background: rgb(192, 181, 181);
+  padding: 40px;
+  box-sizing: border-box;
+}
+.single ul {
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  margin-top: 0;
+}
+.single li {
+  list-style-type: none;
+  margin-right: 10px;
+  color: rgb(165, 193, 110);
+}
+.single li::after {
+  content: ",";
+}
+.single li:last-child::after {
+  content: ".";
+}
+.method {
+  text-align: left;
+  line-height: 1.5em;
+}
